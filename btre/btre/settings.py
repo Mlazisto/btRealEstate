@@ -124,7 +124,7 @@ USE_TZ = True
 STATIC_ROOT= os.path.join(BASE_DIR, 'static')
 STATIC_URL = 'static/'
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, 'btre/static')
+    os.path.join(BASE_DIR, 'btre/static') # Run python manage.py collectstatic after this
 ]
 
 # Default primary key field type
